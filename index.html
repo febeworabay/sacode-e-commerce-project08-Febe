@@ -21,22 +21,135 @@
 </head>
 <body>
 
+	<!-- HEADER START -->
+    <header class="bg-success shadow py-4 mb-4">
+        
+        <!-- .container start -->
+        <div class="container d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between">
+            
+            <!-- logo start -->
+            <a href="index.html" class="text-light text-decoration-none item-align-center fw-bolder display-6">
+                <i class="fas fa-leaf me-1"></i>
+                <b class="fw-bolder">SaZhop</b>
+            </a>
+            <!-- logo end -->
+
+            <!-- menu start -->
+            <ul class="nav justify-content-center">
+                <li>
+                    <a href="#" class="nav-link link-light fw-bolder">Beranda</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-light">Produk</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-light">Daftar Keinginan</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-light">Keranjang Belanja</a>
+                </li>
+            </ul>
+            <!-- menu end -->
 
 
-	<!-- Header Start -->
-	<div class="shadow border p-5 mb-5">
-		Header
+            <div class="col-md-3">
+
+                <div class="d-flex justify-content-between">
+
+                    <!-- search start -->
+                    <form>
+                        <input type="search" placeholder="Cari..." class="form-control">
+                    </form>
+                    <!-- search end -->
+
+                    <!-- user start -->
+                    <div class="dropdown text-lg-end text-lg-center">
+                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://avatars.githubusercontent.com/u/108917306?s=96&v=4" width="50" height="50" class="rounded-circle border">
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="#" class="dropdown-item">Profil</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-item">Pengaturan</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-item">Logout</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- user end -->
+                    
+                </div>
+                
+            </div>         
+
+        </div>
+        <!-- .container end -->
+
+    </header>
+    <!-- HEADER END -->
+
+    <!-- BANNER START -->
+	<div class="shadow bg-white">
+		
+		<!-- .container start -->
+		<div class="container">
+			
+			<!-- .row start -->
+			<div class="row my-5">
+
+				<!-- .col start -->
+				<div class="col-lg-6">		
+					
+					<!-- logo start -->
+					<h4 class="fw-bolder text-muted">Selamat Datang di</h4>
+					<h1 class="fw-bolder text-success display-5 text-center my-3">
+						<i class="fa-solid fa-leaf"></i>
+						SaZhop
+					</h1>
+					<!-- logo end -->
+
+					<!-- welcome message start -->
+					<p class="my-2 text-muted">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+					<!-- welcome message end -->
+
+					<!-- banner box start -->
+					<button class="btn btn-lg btn-success text-center text-warning justify-content-center">
+						<i class="fa-solid fa-cart-shopping"></i>
+						Belanja Sekarang
+					</button>
+					<!-- banner box end -->
+
+				</div>
+				<!-- .col end -->
+
+				<!-- .col start -->
+				<div class="col-lg-6 text-center">
+					
+					<!-- img banner start -->
+					<img src="./assets/img/banner-2.jpg" class="img img-fluid">
+					<!-- img banner end -->
+
+				</div>
+				<!-- .col end -->
+				
+			</div>
+			<!-- .row end -->
+
+		</div>
+		<!-- .container end -->
+
 	</div>
-	<!-- Header End -->
-
-	<!-- Banner Start -->
-	<div class="shadow border p-5 mb-5">
-		Banner
-	</div>
-	<!-- Banner End -->
-
-
-
+	<!-- BANNER END -->
 
 
 	<!-- Produk Start -->
@@ -51,7 +164,6 @@
 					<i class="fa-solid fa-cart-shopping"></i>
 					Produk Terbaru
 				</h1>
-				<p>Lorem Ipsum</p>
 		
 			</div>
 			
@@ -77,20 +189,22 @@
 
 						<!-- card header start -->
 						<div class="card-header">
-							<h1 class="card-title fw-bolder">Sayur Wortel</h1>
+							<span class="badge text-bg-warning text-success">Sayur & Buah</span>
+							<h1 class="card-title fw-bolder text-success fw-bolder">Wortel</h1>
 						</div>
 						<!-- card header end -->
 
 						<!-- card body start -->
 						<div class="card-body">
-							<p class="card-text">Sayur wortel segar bersih berkualitas tinggi yang diproduksi oleh petani lokal</p>
+							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<h3  class="text-success fw-bolder">Rp.25.000,-</h3>
 						</div>
 						<!-- card body end -->
 
 						<!-- card footer start -->
 						<div class="card-footer">
 							<!-- tombol keranjang -->
-							<button class="btn btn-success btn-lg w-100 mb-2">
+							<button class="btn btn-success btn-lg w-100 mb-2 text-warning">
 								<!-- icon -->
 								<i class="fa-solid fa-cart-shopping"></i>
 								<!-- label -->
@@ -123,66 +237,22 @@
 
 						<!-- card header start -->
 						<div class="card-header">
-							<h1 class="card-title fw-bolder">Paprika</h1>
+							<span class="badge text-bg-warning text-success">Sayur & Buah</span>
+							<h1 class="card-title fw-bolder text-success fw-bolder">Paprika</h1>
 						</div>
 						<!-- card header end -->
 
 						<!-- card body start -->
 						<div class="card-body">
-							<p class="card-text">Paprika segar bersih berkualitas tinggi yang diproduksi oleh petani lokal</p>
+							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<h3  class="text-success fw-bolder">Rp.35.000,-</h3>
 						</div>
 						<!-- card body end -->
 
 						<!-- card footer start -->
 						<div class="card-footer">
 							<!-- tombol keranjang -->
-							<button class="btn btn-success btn-lg w-100 mb-2">
-								<!-- icon -->
-								<i class="fa-solid fa-cart-shopping"></i>
-								<!-- label -->
-								Masuk Keranjang
-							</button>
-
-							<!-- tombol detail -->
-							<button class="btn btn-lg w-100 mb-2">
-								<!-- icon -->
-								<i class="fa-solid fa-eye"></i>
-								<!-- label -->
-								Detail
-							</button>
-						</div>
-						<!-- card footer end -->
-
-					</div>
-					<!-- card end -->
-
-				</div>
-
-				<div class="col-lg-4 mb-5">
-					
-					<!-- card start -->
-					<div class="card border shadow">
-						
-						<!-- card image start -->
-						<img src="./assets/img/thumbnail-4.jpg" class="card-img-top">
-						<!-- card image end -->
-
-						<!-- card header start -->
-						<div class="card-header">
-							<h1 class="card-title fw-bolder">Pisang</h1>
-						</div>
-						<!-- card header end -->
-
-						<!-- card body start -->
-						<div class="card-body">
-							<p class="card-text">Pisang Ambon berkualitas tinggi yang diproduksi oleh petani lokal</p>
-						</div>
-						<!-- card body end -->
-
-						<!-- card footer start -->
-						<div class="card-footer">
-							<!-- tombol keranjang -->
-							<button class="btn btn-success btn-lg w-100 mb-2">
+							<button class="btn btn-success btn-lg w-100 mb-2 text-warning">
 								<!-- icon -->
 								<i class="fa-solid fa-cart-shopping"></i>
 								<!-- label -->
@@ -215,20 +285,70 @@
 
 						<!-- card header start -->
 						<div class="card-header">
-							<h1 class="card-title fw-bolder">Jus Mangga</h1>
+							<span class="badge text-bg-warning text-success">Minuman</span>
+							<h1 class="card-title fw-bolder text-success fw-bolder">Jus Mangga Murni</h1>
 						</div>
 						<!-- card header end -->
 
 						<!-- card body start -->
 						<div class="card-body">
-							<p class="card-text">Sayur wortel segar bersih berkualitas tinggi yang diproduksi oleh petani lokal</p>
+							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<h3  class="text-success fw-bolder">Rp.20.000,-</h3>
 						</div>
 						<!-- card body end -->
 
 						<!-- card footer start -->
 						<div class="card-footer">
 							<!-- tombol keranjang -->
-							<button class="btn btn-success btn-lg w-100 mb-2">
+							<button class="btn btn-success btn-lg w-100 mb-2 text-warning">
+								<!-- icon -->
+								<i class="fa-solid fa-cart-shopping"></i>
+								<!-- label -->
+								Masuk Keranjang
+							</button>
+
+							<!-- tombol detail -->
+							<button class="btn btn-lg w-100 mb-2">
+								<!-- icon -->
+								<i class="fa-solid fa-eye"></i>
+								<!-- label -->
+								Detail
+							</button>
+						</div>
+						<!-- card footer end -->
+
+					</div>
+					<!-- card end -->
+
+				</div>
+
+				<div class="col-lg-4 mb-5">
+					
+					<!-- card start -->
+					<div class="card border shadow">
+						
+						<!-- card image start -->
+						<img src="./assets/img/thumbnail-4.jpg" class="card-img-top">
+						<!-- card image end -->
+
+						<!-- card header start -->
+						<div class="card-header">
+							<span class="badge text-bg-warning text-success">Buah</span>
+							<h1 class="card-title fw-bolder text-success fw-bolder">Pisang Raja</h1>
+						</div>
+						<!-- card header end -->
+
+						<!-- card body start -->
+						<div class="card-body">
+							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<h3  class="text-success fw-bolder">Rp.13.000,-</h3>
+						</div>
+						<!-- card body end -->
+
+						<!-- card footer start -->
+						<div class="card-footer">
+							<!-- tombol keranjang -->
+							<button class="btn btn-success btn-lg w-100 mb-2 text-warning">
 								<!-- icon -->
 								<i class="fa-solid fa-cart-shopping"></i>
 								<!-- label -->
@@ -261,20 +381,22 @@
 
 						<!-- card header start -->
 						<div class="card-header">
-							<h1 class="card-title fw-bolder">Semangka</h1>
+							<span class="badge text-bg-warning text-success">Buah</span>
+							<h1 class="card-title fw-bolder text-success fw-bolder">Semangka</h1>
 						</div>
 						<!-- card header end -->
 
 						<!-- card body start -->
 						<div class="card-body">
-							<p class="card-text">Paprika segar bersih berkualitas tinggi yang diproduksi oleh petani lokal</p>
+							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<h3  class="text-success fw-bolder">Rp.40.000,-</h3>
 						</div>
 						<!-- card body end -->
 
 						<!-- card footer start -->
 						<div class="card-footer">
 							<!-- tombol keranjang -->
-							<button class="btn btn-success btn-lg w-100 mb-2">
+							<button class="btn btn-success btn-lg w-100 mb-2 text-warning">
 								<!-- icon -->
 								<i class="fa-solid fa-cart-shopping"></i>
 								<!-- label -->
@@ -307,20 +429,22 @@
 
 						<!-- card header start -->
 						<div class="card-header">
-							<h1 class="card-title fw-bolder">Durian</h1>
+							<span class="badge text-bg-warning text-success">Buah</span>
+							<h1 class="card-title fw-bolder text-success fw-bolder">Durian</h1>
 						</div>
 						<!-- card header end -->
 
 						<!-- card body start -->
 						<div class="card-body">
-							<p class="card-text">Pisang Ambon berkualitas tinggi yang diproduksi oleh petani lokal</p>
+							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<h3  class="text-success fw-bolder">Rp.50.000,-</h3>
 						</div>
 						<!-- card body end -->
 
 						<!-- card footer start -->
 						<div class="card-footer">
 							<!-- tombol keranjang -->
-							<button class="btn btn-success btn-lg w-100 mb-2">
+							<button class="btn btn-success btn-lg w-100 mb-2 text-warning">
 								<!-- icon -->
 								<i class="fa-solid fa-cart-shopping"></i>
 								<!-- label -->
@@ -341,7 +465,6 @@
 					<!-- card end -->
 
 				</div>
-				
 				<!-- Produk Item End -->
 
 			</div>
@@ -354,16 +477,156 @@
 	<!-- Produk End -->
 
 
+	<!-- FOOTER Top START -->
+	<footer class="bg-success text-light">
+
+		<!-- .container start -->
+		<div class="container">
+			
+			<!-- .row start -->
+			<div class="row py-5 border-bottom">
+				
+				<!-- .col start -->
+				<div class="col-lg-3">
+					<!-- logo start -->
+					<h1 class="fw-bolder text-light display-6">
+						<i class="fa-solid fa-leaf px-2"></i>
+						SaZhop
+					</h1>
+					<!-- logo end -->
+
+					<!-- welcome message start -->
+					<p class="my-2">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+					<!-- welcome message end -->
+				</div>
+				<!-- .col end -->
+
+				<!-- .col start -->
+				<div class="col-lg-2">
+
+					<h5 class="fw-bolder">Akun</h5>
+					<ul style="list-style: none;" class="px-0">
+						<li>
+							<a href="#" class="nav-link link-light">Profil</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Cara Berbayar</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Riwayat Pemesanan</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Kata Sandi</a>
+						</li>
+					</ul>
+
+				</div>
+				<!-- .col end -->
+
+				<!-- .col start -->
+				<div class="col-lg-2">
+
+					<h5 class="fw-bolder">Tentang Kami</h5>
+					<ul style="list-style: none;" class="px-0">
+						<li>
+							<a href="#" class="nav-link link-light">Usaha</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Tim</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Sejarah</a>
+						</li>
+					</ul>
+
+				</div>
+				<!-- .col end -->
+
+				<!-- .col start -->
+				<div class="col-lg-2">
+
+					<h5 class="fw-bolder">Produk Populer</h5>
+					<ul style="list-style: none;" class="px-0">
+						<li>
+							<a href="#" class="nav-link link-light">Kopi & Teh</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Buah</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Sayuran</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Daging</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-light">Bumbu</a>
+						</li>
+					</ul>
+				</div>
+				<!-- .col end -->
+
+				<!-- .col start -->
+				<div class="col-lg-3">
+
+					<h5 class="fw-bolder">Instal Aplikasi</h5>
 
 
+					<ul style="list-style: none;" class="px-0 py-0">
+						<i class="fa-brands fa-apple"></i> Download di
+						<li> <a href="#" class="nav-link link-dark px-3 py-0 fw-bolder text-light">App Store</a>
+						</li>
+					</ul>
 
-	<!-- Footer Start -->
-	<div class="shadow border p-5 mb-5">
-		Footer
-	</div>
-	<!-- Footer End -->
+					<ul style="list-style: none;" class="px-0 py-0">
+						<i class="fab fa-google-play"></i> Download di
+						<li> <a href="#" class="nav-link link-dark px-3 py-0 fw-bolder text-light">Play Store</a>
+						</li>
+					</ul>
 
+				</div>
+				<!-- .col end -->
 
+			</div>
+			<!-- .row end -->
+
+		</div>
+		<!-- .container end -->
+
+	</footer>
+	<!-- FOOTER Top END -->
+
+	<!-- FOOTER Bottom START -->
+	<footer class="bg-dark text-light">
+
+		<!-- .container start -->
+		<div class="container">
+
+			<!-- .row start -->
+			<div class="row py-3">
+
+				<!-- .col start -->
+				<div class="col-lg-6">
+					<p>&copy; 2022. SaZhop</p>
+				</div>
+				<!-- .col end -->
+
+				<!-- .col start -->
+				<div class="col-lg-6 px-3" align="right">
+					Ikuti kami di : <i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-tiktok"></i> <i class="fab fa-youtube"></i>
+				</div>
+				<!-- .col end -->
+
+			</div>
+			<!-- .row end -->
+
+		</div>
+		<!-- .container end -->
+
+	</footer>
+	<!-- FOOTER Bottom END -->
 
 
 	<!-- BOOTSTRAP JAVASCRIPT -->
